@@ -76,4 +76,35 @@ How do you test API error-handling scenarios?
 
 What tools can you use for API performance testing?
 
+
+
+>>>Basic Concepts<<<
+ * What is TestNG and how does it differ from JUnit?
+ * Explain the core annotations used in TestNG.
+ * @Test: To mark a method as a test case.
+ * @BeforeSuite, @AfterSuite: To execute code before and after all tests in a suite.
+ * @BeforeTest, @AfterTest: To execute code before and after all tests in a test.
+ * @BeforeClass, @AfterClass: To execute code before and after all tests in a class.
+ * @BeforeMethod, @AfterMethod: To execute code before and after each test method.
+ * How do you group test cases in TestNG?
+ * Explain the concept of TestNG parameters.
+ * How do you handle dependencies between test methods?
+ * What is the difference between @Test(invocationCount = n) and @Test(threadPoolSize = n)?
+
+>>>Advanced Concepts<<<
+ * How do you implement data-driven testing in TestNG?
+ * What is the role of ITestContext in TestNG?
+ * How do you create custom listeners in TestNG?
+ * Explain the concept of parallel testing in TestNG.
+ * How do you integrate TestNG with Maven and Jenkins?
+ * What is the difference between @Test(dependsOnMethods = {"method1"}) and @Test(dependsOnGroups = {"group1"})?
+ * How do you handle exceptions in TestNG?
+ * What are the best practices for writing effective TestNG tests?
+
+>>>Practical Scenarios<<<
+ * How would you test a web application using TestNG and Selenium WebDriver?
+ * How would you implement a retry mechanism for failed test cases in TestNG?
+ * How would you generate a detailed HTML report for your TestNG tests?
+ * How would you integrate TestNG with an external reporting tool like Allure or Extent Reports?
+
 How do you mock APIs for testing when the backend is not available?
